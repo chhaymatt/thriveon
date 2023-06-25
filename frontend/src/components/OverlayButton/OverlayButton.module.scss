@@ -1,0 +1,25 @@
+@use "../../styles/partials/colours";
+@use "../../styles/partials/typography";
+
+.Button {
+	all: unset;
+	padding: 18px 24px 18px 24px;
+	font-weight: 300;
+	font-family: typography.$alaska;
+
+	// Hero
+	// border: 1px solid colours.$cloud-white;
+	// color: colours.$cloud-white;
+
+	// Sections
+	border: 1px solid colours.$carbon-black;
+	color: colours.$carbon-black;
+
+	&:hover {
+		cursor: pointer;
+
+		// Green
+		background-color: colours.$charged-green;
+		border: 1px solid colours.$charged-green;
+	}
+}

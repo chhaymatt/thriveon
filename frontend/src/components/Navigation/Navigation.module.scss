@@ -1,0 +1,38 @@
+@use "../../styles/partials/colours";
+@use "../../styles/partials/typography";
+
+.Navigation {
+	font-family: typography.$alaska;
+	font-weight: 300;
+	display: flex;
+	justify-content: space-between;
+	padding: 17px 100px;
+	background-color: white;
+	border-bottom: 1px solid colours.$cloud-white;
+}
+
+.Link {
+	all: unset;
+	padding: 34px 8px;
+    margin: 0 16px;
+	// color: colours.$cloud-white;
+	color: colours.$carbon-black;
+
+	&:hover {
+		border-bottom: 4px solid colours.$charged-green;
+		cursor: pointer;
+	}
+
+	&__active {
+		border-bottom: 4px solid colours.$charged-green;
+	}
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+	padding: 0px 8px;
+	//color: colours.$cloud-white;
+	color: colours.$carbon-black;
+    font-size: 32px;
+}

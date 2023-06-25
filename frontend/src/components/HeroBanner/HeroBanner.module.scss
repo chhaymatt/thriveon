@@ -1,0 +1,20 @@
+@use "../../styles/partials/colours";
+@use "../../styles/partials/typography";
+
+.HeroBanner {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+		url(https://images.unsplash.com/photo-1584204559709-ca7d413229eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+	
+}
+
+.Section {
+    backdrop-filter: blur(10px);
+    padding-left: 100px;
+	padding-top: 225px;
+	padding-bottom: 225px;
+}
+.Text {
+	width: 610px;
+	color: colours.$cloud-white;
+	margin-bottom: 16px;
+}

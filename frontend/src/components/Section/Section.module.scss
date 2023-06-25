@@ -1,0 +1,31 @@
+@use "../../styles/partials/colours";
+@use "../../styles/partials/typography";
+
+.Section {
+	padding-left: 100px;
+	background-color: white;
+	display: flex;
+    gap: 7.5rem;
+	flex-direction: column;
+}
+
+.SectionText {
+	display: flex;
+	width: 77.5rem;
+	align-items: flex-start;
+	padding-top: 7.5rem;
+
+	h3 {
+		display: flex;
+		width: 38.125rem;
+		flex-direction: column;
+		flex-shrink: 0;
+	}
+}
+
+.CardList {
+	display: flex;
+	align-items: flex-start;
+	gap: 1.25rem;
+	flex-wrap: wrap;
+}
